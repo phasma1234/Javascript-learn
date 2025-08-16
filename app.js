@@ -55,8 +55,61 @@ else(
 
 
 // While loop condition
-let counter=1;
-while(counter<=10){
+
+let counter = 1;
+while(counter>=-10){
     console.log(counter);
-    counter++;
+    counter--;
 }
+
+//for loop
+
+for (let i= 0; i < 30 ; i++) {
+    console.log(i);
+}
+// Function lesson
+function sayHellow() {
+    console.log('Hellow Mr Phasma');
+    console.log(239+234);  
+}
+sayHellow();
+
+//Paremeters and Arguments
+
+function addNumbers(num1, num2){
+    console.log(num1+num2);
+}
+
+function substractNumbers(num1, num2) {
+    console.log(num1-num2);
+}
+
+function multiplyNumbers(num1, num2) {
+    console.log(num1*num2);
+}
+
+function divideNumbers(num1, num2) {
+    console.log(num1/num2);
+}
+
+addNumbers(12,19);
+substractNumbers(452,149);
+multiplyNumbers(12,19);
+divideNumbers(42,149);
+
+function myNames(firstName, secondName){
+    console.log(firstName, secondName);
+}
+myNames('Tito ', 'Linti');
+myNames('Martin ', 'Linti');
+
+// Check the Legal driving age
+
+let drivingAge=13;
+if (drivingAge<18) {
+    console.log('Sorry, you dont meet the age requirements');   
+}else{
+    console.log('Congraturation you meet the minimal age requirement');
+}
+
+
