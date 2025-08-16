@@ -112,4 +112,15 @@ if (drivingAge<18) {
     console.log('Congraturation you meet the minimal age requirement');
 }
 
+// Scissor paper effects
 
+ document.getElementById('rock').onclick= function (){
+            alert('This is rock effect')
+        };
+
+        document.getElementById('scissor').onclick= function(){
+            alert('This is sciccor effect')
+        }
+        document.getElementById('paper').onclick=function() {
+            alert('This is paper effect')
+        }
