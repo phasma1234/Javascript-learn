@@ -105,16 +105,16 @@ myNames('Martin ', 'Linti');
 
 // Check the Legal driving age
 
-let drivingAge=13;
-if (drivingAge<18) {
-    console.log('Sorry, you dont meet the age requirements');   
-}else{
-    console.log('Congraturation you meet the minimal age requirement');
-}
+        let drivingAge=13;
+        if (drivingAge<18) {
+            console.log('Sorry, you dont meet the age requirements');   
+        }else{
+            console.log('Congraturation you meet the minimal age requirement');
+        }
 
 // Scissor paper effects
 
- document.getElementById('rock').onclick= function (){
+        document.getElementById('rock').onclick= function (){
             alert('This is rock effect')
         };
 
@@ -125,21 +125,27 @@ if (drivingAge<18) {
             alert('This is paper effect')
         }
 
-        // Events in Javascript
-const mkoa=document.getElementById('mikoa');
-mkoa.addEventListener('change',function(){
-document.getElementById('demo').textContent=this.value;
+// Events in Javascript
+        const mkoa=document.getElementById('mikoa');
+        mkoa.addEventListener('change',function(){
+        document.getElementById('demo').textContent=this.value;
+        });
+
+        const myButton =document.getElementById('mouse').addEventListener('mouseover', function () {
+        alert('You have mouseOver');
+        });
+
+
+// MouseOver event
+        const myHoverEffect = document.getElementById('demos');
+        myHoverEffect.addEventListener('mouseover', function(){
+            myHoverEffect.innerHTML='You have succesfully hover Me'
+        });
+
+// Keypress events
+const myAge=document.getElementById('age');
+myAge.addEventListener('keypress', function(){
+    document.getElementById('myage').innerHTML=myAge.value;
 });
-
-const myButton =document.getElementById('mouse').addEventListener('mouseover', function () {
-   alert('You have mouseOver');
-});
-
-const myHoverEffect = document.getElementById('demos');
-myHoverEffect.addEventListener('mouseover', function(){
-    myHoverEffect.innerHTML='You have succesfully hover Me'
-});
-
-
 
         
