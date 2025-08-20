@@ -124,3 +124,13 @@ if (drivingAge<18) {
         document.getElementById('paper').onclick=function() {
             alert('This is paper effect')
         }
+
+        // Events in Javascript
+const mkoa=document.getElementById('mikoa');
+mkoa.addEventListener('change',function(){
+    document.getElementById('demo').textContent=this.value;
+});
+
+
+
+        
