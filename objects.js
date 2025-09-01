@@ -16,3 +16,16 @@ const car={
 
 document.getElementById('mchumba').innerHTML= "Hamisi owns a "+car.color + " " + car.brand + ' from '+car.country + 
     " that has been manufactured on "+car.yearOfProduction;
+
+
+const friend={
+    firstName:"Reyan ",
+    lastName:"Hatun ",
+    age: 30,
+    hobby:" hypocricy",
+    fullname:function(){
+        return "My friend name is "+ this.firstName + this.lastName +" with "+ this.age + " years Old and she preferss "+ this.hobby;
+    }
+};
+
+document.getElementById('raya').textContent=friend.fullname();
