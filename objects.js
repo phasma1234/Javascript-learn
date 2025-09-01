@@ -40,3 +40,7 @@ document.getElementById('output').innerHTML=
 "String 2: "+ str1 + "<br>" +
 "String 3: " + str2 + "<br>"+
 "String 4: "+ str3 + "<br>";
+
+
+const raya="ASDFGHHJJKJHZXCVBNMPOIUYTREWW";
+document.getElementById('length').innerHTML="The string has " + raya.length + " characters";
