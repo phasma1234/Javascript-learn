@@ -44,3 +44,6 @@ document.getElementById('output').innerHTML=
 
 const raya="ASDFGHHJJKJHZXCVBNMPOIUYTREWW";
 document.getElementById('length').innerHTML="The string has " + raya.length + " characters";
+
+const cars=["BMW"," Volvo "," Nissan"];
+document.getElementById('isike').innerHTML=cars;
