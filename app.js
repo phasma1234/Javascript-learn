@@ -148,4 +148,11 @@ myAge.addEventListener('keypress', function(){
     document.getElementById('myage').innerHTML=myAge.value;
 });
 
+const myFocus=document.getElementById('foc1');
+myFocus.addEventListener('focus', function(){
+    myFocus,this.style.background= 'darkblue';
+});
+
+
+
         
