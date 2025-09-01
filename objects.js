@@ -29,3 +29,14 @@ const friend={
 };
 
 document.getElementById('raya').textContent=friend.fullname();
+
+const str= "Hellow\tWorld";
+const str1= "Hellow \" Raya Juma \"";
+const str2="Hellow \\ Raya Juma\\";
+const str3 ="Hellow\n Tamim";
+
+document.getElementById('output').innerHTML= 
+"String 1: "+str + "<br>" +
+"String 2: "+ str1 + "<br>" +
+"String 3: " + str2 + "<br>"+
+"String 4: "+ str3 + "<br>";
