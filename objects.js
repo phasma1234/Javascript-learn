@@ -59,6 +59,12 @@ const mcharo=["JBL","Sundar","Hisense","Zec","Samsung"];
 mcharo[1]="Bontel";
 document.getElementById('isike').innerHTML=mcharo[1];
 
+//Push Method in Arrays
 const newArray=["Mangoes " , " banana " , " Tomato "];
 newArray.push(" Avocado");
 document.getElementById('isike1').innerHTML=newArray;
+
+//Pop methods in Arrays
+const buses=["Mallessas ", " Machame ", " Marangu ", " Kimbwe "];
+buses.pop();
+document.getElementById('isike2').textContent=buses;
