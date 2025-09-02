@@ -47,3 +47,7 @@ document.getElementById('length').innerHTML="The string has " + raya.length + " 
 
 const cars=["BMW"," Volvo "," Nissan"];
 document.getElementById('isike').innerHTML=cars;
+
+
+const house=["NHC", "NHIF","NPD", "POLISI"];
+document.getElementById('mach').innerHTML=house[2];
