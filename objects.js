@@ -51,3 +51,5 @@ document.getElementById('isike').innerHTML=cars;
 
 const house=["NHC", "NHIF","NPD", "POLISI"];
 document.getElementById('mach').innerHTML=house[2];
+
+document.getElementById('mach').innerHTML=house[0];
