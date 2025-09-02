@@ -53,3 +53,8 @@ const house=["NHC", "NHIF","NPD", "POLISI"];
 document.getElementById('mach').innerHTML=house[2];
 
 document.getElementById('mach').innerHTML=house[0];
+
+
+const mcharo=["JBL","Sundar","Hisense","Zec","Samsung"];
+mcharo[1]="Bontel";
+document.getElementById('isike').innerHTML=mcharo[1];
