@@ -73,3 +73,8 @@ document.getElementById('isike2').textContent=buses;
 const tribe=["Maasai ", " Meru ", " Chaga "];
 tribe.unshift("Sukuma Gang");
 document.getElementById('isike3').textContent=tribe;
+
+//4. Shift method in arrays
+const brands=["Gucci", "Adidas", "Puma", "African Boy"];
+brands.shift();
+document.getElementById('isike4').textContent=brands;
