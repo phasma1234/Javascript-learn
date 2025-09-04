@@ -90,3 +90,8 @@ document.getElementById("isike6").textContent=baba.indexOf("Shangazi ");
 //7. Include methods in arrays
 const bibi=["Mjukuu ", " Shangazi", " Mjomba", " Mpwa"];
 document.getElementById("isike4").textContent=bibi.includes("Mjukuu ");
+
+//8. slice methods in arrays
+const linti=["Tito ","Ruth ","Joseph ","Msangi"];
+let newLinti=linti.slice(2);
+document.getElementById("isike4").textContent=newLinti;
