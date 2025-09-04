@@ -97,7 +97,12 @@ let newLinti=linti.slice(2);
 document.getElementById("isike4").textContent=newLinti;
 
 //9. Splice methods in arrays
-// Add element on the array
+// Replace element on the array
 const mjukuu=["Babu ", "Bibi","Mama","Baba"];
 mjukuu.splice(1,1,"Mjomba");
 document.getElementById("isike7").textContent=mjukuu;
+
+//addition of Element on the array
+const shangazi=["Mtoto","Mkubwa"];
+shangazi.splice(1,0,"Mjomba","Kaka");
+document.getElementById("isike8").textContent=shangazi;
