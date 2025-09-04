@@ -106,3 +106,8 @@ document.getElementById("isike7").textContent=mjukuu;
 const shangazi=["Mtoto","Mkubwa"];
 shangazi.splice(1,0,"Mjomba","Kaka");
 document.getElementById("isike8").textContent=shangazi;
+
+//Remove an element on the array
+let iaa=["dar","Arusha","dodoma","mwanza","geita"];
+iaa.splice(1,2);
+document.getElementById("isike9").textContent=iaa;
