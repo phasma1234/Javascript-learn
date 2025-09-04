@@ -86,3 +86,7 @@ document.getElementById("isike5").textContent=mama.length;
 //6. indexof method in arrays
 const baba=["Shangazi ", "Mjomba "," Bibi", " Babu"];
 document.getElementById("isike6").textContent=baba.indexOf("Shangazi ");
+
+//7. Include methods in arrays
+const bibi=["Mjukuu ", " Shangazi", " Mjomba", " Mpwa"];
+document.getElementById("isike4").textContent=bibi.includes("Mjukuu ");
