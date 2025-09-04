@@ -82,3 +82,7 @@ document.getElementById('isike4').textContent=brands;
 //5. Length method in arrays
 const mama=["Mjomba"," kaka ", " Dada ", " Shangazi "];
 document.getElementById("isike5").textContent=mama.length;
+
+//6. indexof method in arrays
+const baba=["Shangazi ", "Mjomba "," Bibi", " Babu"];
+document.getElementById("isike6").textContent=baba.indexOf("Shangazi ");
