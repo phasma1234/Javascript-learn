@@ -78,3 +78,7 @@ document.getElementById('isike3').textContent=tribe;
 const brands=["Gucci", "Adidas", "Puma", "African Boy"];
 brands.shift();
 document.getElementById('isike4').textContent=brands;
+
+//5. Length method in arrays
+const mama=["Mjomba"," kaka ", " Dada ", " Shangazi "];
+document.getElementById("isike5").textContent=mama.length;
