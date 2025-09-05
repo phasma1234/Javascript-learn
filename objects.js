@@ -119,7 +119,7 @@ fruits.sort();
 document.write(fruits);
 
 //2. Numeric Sorting
-
+// Ascending order
 const classes=[100,23,42,1234,564,3,2];
 classes.sort(function(a,b)
 {
@@ -127,3 +127,10 @@ classes.sort(function(a,b)
 }
 );
 document.getElementById('isike9').textContent=classes;
+
+// Descending order
+const room=[2,432,45,4,3,43432,56,765,42,12,2];
+room.sort(function(a,b) {
+    return b-a;
+});
+document.getElementById("raya1").textContent=room;
