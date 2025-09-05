@@ -113,6 +113,17 @@ iaa.splice(1,2);
 document.getElementById("isike9").textContent=iaa;
 
 //ARRAY SORTING.
+//1. String Sorting
 const fruits=["Maembe ", "Machungwa ", "Mapapai "];
-fruits.sort;
+fruits.sort();
 document.write(fruits);
+
+//2. Numeric Sorting
+
+const classes=[100,23,42,1234,564,3,2];
+classes.sort(function(a,b)
+{
+    return a-b
+}
+);
+document.getElementById('isike9').textContent=classes;
