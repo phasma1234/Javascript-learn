@@ -170,7 +170,7 @@ function lowerValue(){
 
 function highValue(){
     Values.sort(function(a,b){
-        return a-b;
+        return b-a;
     })
-    document.getElementById('raya4').textContent=Values[Values.length-1];
+    document.getElementById('raya4').textContent=Values[0];
 };
