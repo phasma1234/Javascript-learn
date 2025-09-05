@@ -134,3 +134,11 @@ room.sort(function(a,b) {
     return b-a;
 });
 document.getElementById("raya1").textContent=room;
+
+const numbers=[2,65746,36473,3647,0,2,313,21,1];
+
+function myFunction1(){
+    numbers.sort(function(a,b){
+        return a-b;
+    })
+}
