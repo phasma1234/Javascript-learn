@@ -116,7 +116,7 @@ document.getElementById("isike9").textContent=iaa;
 //1. String Sorting
 const fruits=["Maembe ", "Machungwa ", "Mapapai "];
 fruits.sort();
-document.write(fruits);
+document.getElementById('isike7').textContent=fruits;
 
 //2. Numeric Sorting
 // Ascending order
@@ -152,4 +152,18 @@ function myFunction2(){
     })
     document.getElementById("raya2").textContent=numbers;
 };
+
+
+// Finding the Lowest value in an Array
+const Values=[45636,7584738,5625,123,286373,25,345,453];
+
+document.getElementById('raya3').textContent=Values;
+
+function lowerValue(){
+    Values.sort(function(a,b){
+        return a-b;
+    })
+    document.getElementById('raya4').textContent=Values[0];
+};
+
 
