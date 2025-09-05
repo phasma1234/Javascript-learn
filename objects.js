@@ -111,3 +111,8 @@ document.getElementById("isike8").textContent=shangazi;
 let iaa=["dar","Arusha","dodoma","mwanza","geita"];
 iaa.splice(1,2);
 document.getElementById("isike9").textContent=iaa;
+
+//ARRAY SORTING.
+const fruits=["Maembe ", "Machungwa ", "Mapapai "];
+fruits.sort;
+document.write(fruits);
