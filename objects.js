@@ -166,4 +166,11 @@ function lowerValue(){
     document.getElementById('raya4').textContent=Values[0];
 };
 
+// Finding the Highest value in an Array
 
+function highValue(){
+    Values.sort(function(a,b){
+        return a-b;
+    })
+    document.getElementById('raya4').textContent=Values[Values.length-1];
+};
