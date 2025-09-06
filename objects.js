@@ -188,8 +188,8 @@ document.getElementById('raya6').innerHTML=bura[0];
 
 function bura2(){
     bura.sort(function(a,b){
-        return a-b;
+        return b-a;
     })
-document.getElementById('raya6').innerHTML=bura[bura.length-1];
+document.getElementById('raya6').innerHTML=bura[0];
 };
     
