@@ -211,3 +211,12 @@ student.forEach(function(stu){
 })
 
 document.getElementById('raya7').innerHTML=output;
+
+// Comparing as per age
+student.sort(function(a,b){
+    return a.age-b.age;
+});
+
+for (let i=0;i<student.length;i++ )
+document.getElementById("raya8").innerHTML+= "<p>Name: "+ student[i].name + " Age: " + student[i].age + " Street: "+ student[i].street + "<br>";
+document.getElementById('raya9').innerHTML=output;
