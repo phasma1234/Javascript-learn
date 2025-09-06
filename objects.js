@@ -224,3 +224,11 @@ document.getElementById("raya8").innerHTML+= "<p>Name: "+ student[i].name + " Ag
 const test=["math", "english","kiswahili"];
 test.reverse();
 document.getElementById("raya9").innerHTML=test;
+
+// javascript Array Iteration
+// For loop
+
+const fruit=["Mangoes", "Oranges","Cucumber", "Avocado"];
+for(let i=0; i<fruit.length; i++){
+    document.getElementById("mary").innerHTML+=fruit[i] + "<br>";
+}
