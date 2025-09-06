@@ -183,6 +183,13 @@ function bura1(){
     bura.sort(function(a,b){
         return a-b;
     })
-document.getElementById('raya6').innerHTML=bura;
+document.getElementById('raya6').innerHTML=bura[0];
+};
+
+function bura2(){
+    bura.sort(function(a,b){
+        return a-b;
+    })
+document.getElementById('raya6').innerHTML=bura[bura.length-1];
 };
     
