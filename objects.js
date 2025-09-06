@@ -174,3 +174,15 @@ function highValue(){
     })
     document.getElementById('raya4').textContent=Values[0];
 };
+
+const bura=["21344", "758474","8484","748382"];
+
+document.getElementById("raya5").innerHTML=bura;
+
+function bura1(){
+    bura.sort(function(a,b){
+        return a-b;
+    })
+document.getElementById('raya6').innerHTML=bura;
+};
+    
