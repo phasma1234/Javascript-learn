@@ -219,4 +219,8 @@ student.sort(function(a,b){
 
 for (let i=0;i<student.length;i++ )
 document.getElementById("raya8").innerHTML+= "<p>Name: "+ student[i].name + " Age: " + student[i].age + " Street: "+ student[i].street + "<br>";
-document.getElementById('raya9').innerHTML=output;
+
+
+const test=["math", "english","kiswahili"];
+test.reverse();
+document.getElementById("raya9").innerHTML=test;
