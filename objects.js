@@ -193,3 +193,21 @@ function bura2(){
 document.getElementById('raya6').innerHTML=bura[0];
 };
     
+//Sorting an Array of Objects.
+const student=[
+    {name: "Majaliwa", age: 8, street: "Kalangalala"},
+    {name: "Josephat", age:32, street:"Engutototo"},
+    {name:"Mwakipesile", age:27, street:"Makambako"}
+];
+
+// Comparing Street
+student.sort(function(a,b){
+    return a.street.localeCompare(b.street);
+});
+
+let output="";
+student.forEach(function(stu){
+    output+=stu.name + " " + stu.age + " " + stu.street + "<br>";
+})
+
+document.getElementById('raya7').innerHTML=output;
