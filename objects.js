@@ -233,8 +233,8 @@ for(let i=0; i<fruit.length; i++){
     document.getElementById("mary").innerHTML+=fruit[i] + "<br>";
 }
 
-const fruites=["Matunda","Juices","sharubati","Makange"];
+const fruites=["Matunda ","Juices ","sharubati ","Makange"];
 for (let i = 0; i < fruites.length; i++) {
-    document.getElementById("mary1").innerHTML=fruites[0];
+    document.getElementById("mary1").innerHTML+=fruites[i];
     
 }
